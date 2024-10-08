@@ -1,0 +1,92 @@
+[
+  {
+    "model": "materials.course",
+    "pk": 1,
+    "fields": {
+      "title": "Курс_1",
+      "description": "Описание курса № 1",
+      "imagery": "",
+      "owner": 4
+    }
+  },
+  {
+    "model": "materials.course",
+    "pk": 2,
+    "fields": {
+      "title": "Курс_2",
+      "description": "Описание курса № 2",
+      "imagery": "",
+      "owner": 5
+    }
+  },
+  {
+    "model": "materials.topic",
+    "pk": 1,
+    "fields": {
+      "course": 1,
+      "title": "Тема_1",
+      "description": "Описание темы № 1",
+      "imagery": "",
+      "owner": 4
+    }
+  },
+  {
+    "model": "materials.topic",
+    "pk": 2,
+    "fields": {
+      "course": 1,
+      "title": "Тема_2",
+      "description": "Описание темы № 2",
+      "imagery": "",
+      "owner": 5
+    }
+  },
+  {
+    "model": "materials.topic",
+    "pk": 3,
+    "fields": {
+      "course": 2,
+      "title": "Тема_1",
+      "description": "Описание темы № 1",
+      "imagery": "",
+      "owner": 4
+    }
+  },
+  {
+    "model": "materials.topic",
+    "pk": 4,
+    "fields": {
+      "course": 2,
+      "title": "Тема_2",
+      "description": "Описание темы № 2",
+      "imagery": "",
+      "owner": 5
+    }
+  },
+  {
+    "model": "materials.lecture",
+    "pk": 1,
+    "fields": {
+      "title": "Лекция_1",
+      "description": "Описание лекции 1",
+      "imagery": "",
+      "content": "",
+      "video": null,
+      "topic": 1,
+      "owner": 4
+    }
+  },
+  {
+    "model": "materials.lecture",
+    "pk": 2,
+    "fields": {
+      "title": "Лекция_2",
+      "description": "Описание лекции 2",
+      "imagery": "",
+      "content": "",
+      "video": null,
+      "topic": 3,
+      "owner": 5
+    }
+  }
+]

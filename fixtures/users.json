@@ -1,0 +1,120 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$rnWSSx8MUkk9xKXS6t0o2q$VEpjS9CJOzviKF9GBLk97Cf+1I54aW/QLk4Uo025/H4=",
+      "last_login": "2024-08-26T10:59:47.396Z",
+      "is_superuser": true,
+      "is_staff": true,
+      "date_joined": "2024-08-26T10:18:27.891Z",
+      "email": "admin@admin.com",
+      "first_name": "Admin",
+      "last_name": "SuperUser",
+      "phone": null,
+      "avatar": "",
+      "tg_chat_id": null,
+      "token": null,
+      "is_active": true,
+      "role": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$1x5AK4NOqkLCxj5QTRq0gs$29FxjFzUk58iCDs3B62f456cEKP3JKs6IV1Fs29/RKU=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2024-08-26T11:01:46.261Z",
+      "email": "student1@user.com",
+      "first_name": null,
+      "last_name": null,
+      "phone": null,
+      "avatar": "",
+      "tg_chat_id": null,
+      "token": null,
+      "is_active": true,
+      "role": "student",
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$8fuKvJm2RV5mHwGCnfsqH5$LjxLW0XPzuBnVEBeRV3CXgBZeovKGVfUAvPD3YC33A4=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2024-08-26T11:01:59.006Z",
+      "email": "student2@user.com",
+      "first_name": null,
+      "last_name": null,
+      "phone": null,
+      "avatar": "",
+      "tg_chat_id": null,
+      "token": null,
+      "is_active": true,
+      "role": "student",
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$6v6twnmlwFmlAfLAL757kq$ARMjP9DOd0yBdtcQmnNyYtkbXUX0Ic9YX3tJqQISPQk=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2024-08-26T11:02:32.549Z",
+      "email": "teacher1@user.com",
+      "first_name": null,
+      "last_name": null,
+      "phone": null,
+      "avatar": "",
+      "tg_chat_id": null,
+      "token": null,
+      "is_active": true,
+      "role": "teacher",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$o3eOOTwfrZ2GTDg7XmtsOU$PZ3bbDYzijOWcJ1BRc3Jzww3XIOm2vOTLnxCxHpLO/E=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2024-08-26T11:02:46.080Z",
+      "email": "teacher2@user.com",
+      "first_name": null,
+      "last_name": null,
+      "phone": null,
+      "avatar": "",
+      "tg_chat_id": null,
+      "token": null,
+      "is_active": true,
+      "role": "teacher",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  }
+]
